@@ -1,0 +1,182 @@
+﻿id,texto,categoria,respuesta
+1,¿Qué becas existen?,BECAS,La institución ofrece diferentes tipos de becas de acuerdo con los requisitos establecidos.
+2,¿Qué tipos de becas hay?,BECAS,La institución ofrece diferentes tipos de becas de acuerdo con los requisitos establecidos.
+3,¿Qué becas puedo solicitar?,BECAS,La institución ofrece diferentes tipos de becas de acuerdo con los requisitos establecidos.
+4,¿Cómo puedo solicitar una beca?,BECAS,Puedes solicitar una beca mediante el portal institucional durante el periodo correspondiente.
+5,¿Cómo solicito mi beca?,BECAS,Puedes solicitar una beca mediante el portal institucional durante el periodo correspondiente.
+6,¿Dónde puedo pedir una beca?,BECAS,Puedes solicitar una beca mediante el portal institucional durante el periodo correspondiente.
+7,¿Cuándo puedo solicitar una beca?,BECAS,El periodo de solicitud de becas comienza el 20 de octubre.
+8,¿Cuándo puedo pedir mi beca?,BECAS,El periodo de solicitud de becas comienza el 20 de octubre.
+9,¿En qué fecha puedo solicitar la beca?,BECAS,El periodo de solicitud de becas comienza el 20 de octubre.
+10,¿Cuándo empieza la solicitud de becas?,BECAS,El periodo de solicitud de becas comienza el 20 de octubre.
+11,¿Qué requisitos necesito para solicitar una beca?,BECAS,Los requisitos dependen del tipo de beca y de la convocatoria correspondiente.
+12,¿Qué necesito para obtener una beca?,BECAS,Los requisitos dependen del tipo de beca y de la convocatoria correspondiente.
+13,¿Qué documentos necesito para la beca?,BECAS,Los requisitos dependen del tipo de beca y de la convocatoria correspondiente.
+14,¿Puedo renovar mi beca?,BECAS,"Sí, las becas pueden renovarse siempre que cumplas con los requisitos establecidos."
+15,¿Cómo renuevo mi beca?,BECAS,"Sí, las becas pueden renovarse siempre que cumplas con los requisitos establecidos."
+16,¿Dónde puedo consultar si me dieron una beca?,BECAS,Los resultados se pueden consultar en el portal institucional durante las fechas establecidas.
+17,¿Cómo sé si fui seleccionado para una beca?,BECAS,Los resultados se pueden consultar en el portal institucional durante las fechas establecidas.
+18,¿Quién puede solicitar una beca?,BECAS,Los estudiantes que cumplan con los requisitos de la convocatoria pueden solicitarla.
+19,¿Cuánto dinero da la beca?,BECAS,El monto depende del tipo de beca y de las condiciones establecidas por la institución.
+20,¿Cuándo publican la convocatoria de becas?,BECAS,La convocatoria se publica antes del inicio del periodo de solicitudes.
+21,¿Cuándo son las inscripciones?,INSCRIPCIONES,El periodo de inscripciones se publica en el calendario académico institucional.
+22,¿Cuándo empiezan las inscripciones?,INSCRIPCIONES,El periodo de inscripciones se publica en el calendario académico institucional.
+23,¿Qué fecha son las inscripciones?,INSCRIPCIONES,El periodo de inscripciones se publica en el calendario académico institucional.
+24,¿Cómo puedo inscribirme?,INSCRIPCIONES,Debes ingresar al portal estudiantil y seguir el proceso de inscripción correspondiente.
+25,¿Cómo hago mi inscripción?,INSCRIPCIONES,Debes ingresar al portal estudiantil y seguir el proceso de inscripción correspondiente.
+26,¿Dónde puedo inscribirme?,INSCRIPCIONES,La inscripción puede realizarse mediante el portal institucional de estudiantes.
+27,¿Qué necesito para inscribirme?,INSCRIPCIONES,Debes cumplir con los requisitos académicos y administrativos indicados para tu periodo de inscripción.
+28,¿Qué requisitos necesito para la inscripción?,INSCRIPCIONES,Debes cumplir con los requisitos académicos y administrativos indicados para tu periodo de inscripción.
+29,¿Qué documentos necesito para inscribirme?,INSCRIPCIONES,Debes cumplir con los requisitos académicos y administrativos indicados para tu periodo de inscripción.
+30,¿Cuándo puedo reinscribirme?,INSCRIPCIONES,La reinscripción se realiza durante las fechas indicadas en el calendario académico.
+31,¿Cuándo es la reinscripción?,INSCRIPCIONES,La reinscripción se realiza durante las fechas indicadas en el calendario académico.
+32,¿Cómo hago mi reinscripción?,INSCRIPCIONES,La reinscripción se realiza durante las fechas indicadas en el calendario académico.
+33,¿Puedo cambiar mis materias después de inscribirme?,INSCRIPCIONES,Los cambios de materias están sujetos al periodo y las condiciones establecidas por la institución.
+34,¿Puedo cambiar una materia que ya elegí?,INSCRIPCIONES,Los cambios de materias están sujetos al periodo y las condiciones establecidas por la institución.
+35,¿Qué pasa si no me inscribo a tiempo?,INSCRIPCIONES,Debes comunicarte con el área correspondiente para conocer si existe un periodo extraordinario de inscripción.
+36,¿Qué sucede si se me pasa la fecha de inscripción?,INSCRIPCIONES,Debes comunicarte con el área correspondiente para conocer si existe un periodo extraordinario de inscripción.
+37,¿Dónde consulto mi horario después de inscribirme?,INSCRIPCIONES,Puedes consultar tu horario desde el portal institucional.
+38,¿Cómo compruebo que estoy inscrito?,INSCRIPCIONES,Puedes consultar tu estado académico o comprobante de inscripción en el portal estudiantil.
+39,¿Dónde puedo ver mi comprobante de inscripción?,INSCRIPCIONES,Puedes consultar tu estado académico o comprobante de inscripción en el portal estudiantil.
+40,¿Puedo cancelar una materia después de inscribirme?,INSCRIPCIONES,La cancelación de materias depende de las fechas y reglas establecidas por la institución.
+41,¿Dónde puedo pagar mi inscripción?,PAGOS,Puedes realizar el pago mediante los medios habilitados por la institución.
+42,¿Dónde pago la inscripción?,PAGOS,Puedes realizar el pago mediante los medios habilitados por la institución.
+43,¿Cómo puedo pagar mi inscripción?,PAGOS,Puedes realizar el pago mediante los medios habilitados por la institución.
+44,¿Cómo puedo pagar mi colegiatura?,PAGOS,La colegiatura puede pagarse mediante los métodos disponibles en el portal institucional.
+45,¿Dónde pago mi colegiatura?,PAGOS,La colegiatura puede pagarse mediante los métodos disponibles en el portal institucional.
+46,¿Cuándo debo realizar mi pago?,PAGOS,Las fechas límite de pago se encuentran en el calendario administrativo correspondiente.
+47,¿Cuál es la fecha límite para pagar?,PAGOS,Las fechas límite de pago se encuentran en el calendario administrativo correspondiente.
+48,¿Cuándo tengo que pagar la colegiatura?,PAGOS,Las fechas límite de pago se encuentran en el calendario administrativo correspondiente.
+49,¿Puedo pagar en línea?,PAGOS,"Sí, puedes realizar tus pagos mediante el portal institucional si el servicio está habilitado."
+50,¿Cómo hago un pago por internet?,PAGOS,"Sí, puedes realizar tus pagos mediante el portal institucional si el servicio está habilitado."
+51,¿Dónde puedo consultar cuánto debo?,PAGOS,Puedes consultar tu saldo pendiente desde el portal institucional.
+52,¿Cómo consulto mi saldo?,PAGOS,Puedes consultar tu saldo pendiente desde el portal institucional.
+53,¿Qué métodos de pago aceptan?,PAGOS,Los métodos disponibles dependen de las opciones habilitadas por la institución.
+54,¿Con qué puedo pagar?,PAGOS,Los métodos disponibles dependen de las opciones habilitadas por la institución.
+55,¿Qué pasa si no pago a tiempo?,PAGOS,Un pago fuera de la fecha límite puede generar restricciones o cargos adicionales según las políticas institucionales.
+56,¿Qué sucede si me atraso con el pago?,PAGOS,Un pago fuera de la fecha límite puede generar restricciones o cargos adicionales según las políticas institucionales.
+57,¿Dónde descargo mi comprobante de pago?,PAGOS,El comprobante puede consultarse y descargarse desde el portal institucional.
+58,¿Cómo obtengo mi comprobante de pago?,PAGOS,El comprobante puede consultarse y descargarse desde el portal institucional.
+59,¿Puedo pagar después de la fecha límite?,PAGOS,Debes consultar con el área administrativa si existe un periodo extraordinario de pago.
+60,¿Cómo puedo consultar mis pagos?,PAGOS,Puedes revisar tu historial de pagos desde el portal institucional.
+61,¿Qué actividades extraescolares existen?,EXTRAESCOLARES,"La institución cuenta con diferentes actividades deportivas, culturales y recreativas."
+62,¿Qué actividades extracurriculares hay?,EXTRAESCOLARES,"La institución cuenta con diferentes actividades deportivas, culturales y recreativas."
+63,¿Qué talleres ofrece la escuela?,EXTRAESCOLARES,"La institución cuenta con diferentes actividades deportivas, culturales y recreativas."
+64,¿Qué deportes puedo practicar?,EXTRAESCOLARES,Las disciplinas disponibles dependen de la oferta extraescolar de cada periodo.
+65,¿Qué deportes hay?,EXTRAESCOLARES,Las disciplinas disponibles dependen de la oferta extraescolar de cada periodo.
+66,¿Qué actividades deportivas tienen?,EXTRAESCOLARES,Las disciplinas disponibles dependen de la oferta extraescolar de cada periodo.
+67,¿Cómo me inscribo a una actividad extraescolar?,EXTRAESCOLARES,Debes registrarte mediante el procedimiento indicado por el área de actividades extraescolares.
+68,¿Cómo puedo entrar a una actividad?,EXTRAESCOLARES,Debes registrarte mediante el procedimiento indicado por el área de actividades extraescolares.
+69,¿Dónde me inscribo a las actividades?,EXTRAESCOLARES,Puedes solicitar tu inscripción en el área correspondiente o mediante el portal institucional.
+70,¿Dónde puedo inscribirme a un taller?,EXTRAESCOLARES,Puedes solicitar tu inscripción en el área correspondiente o mediante el portal institucional.
+71,¿Cuándo comienzan las actividades extraescolares?,EXTRAESCOLARES,Las actividades comienzan de acuerdo con el calendario establecido para cada periodo.
+72,¿Cuándo empiezan los talleres?,EXTRAESCOLARES,Las actividades comienzan de acuerdo con el calendario establecido para cada periodo.
+73,¿Las actividades extraescolares tienen costo?,EXTRAESCOLARES,Algunas actividades pueden ser gratuitas y otras pueden tener un costo dependiendo de la actividad.
+74,¿Tengo que pagar por las actividades?,EXTRAESCOLARES,Algunas actividades pueden ser gratuitas y otras pueden tener un costo dependiendo de la actividad.
+75,¿Puedo cambiar de actividad extraescolar?,EXTRAESCOLARES,Los cambios dependen de la disponibilidad y de las reglas de cada actividad.
+76,¿Puedo cambiarme de taller?,EXTRAESCOLARES,Los cambios dependen de la disponibilidad y de las reglas de cada actividad.
+77,¿Las actividades extraescolares son obligatorias?,EXTRAESCOLARES,La obligatoriedad depende del programa académico y de los requisitos establecidos.
+78,¿Es obligatorio realizar una actividad extraescolar?,EXTRAESCOLARES,La obligatoriedad depende del programa académico y de los requisitos establecidos.
+79,¿Dónde se realizan las actividades?,EXTRAESCOLARES,El lugar depende de la actividad y puede consultarse con el área de extraescolares.
+80,¿Puedo participar en un equipo deportivo?,EXTRAESCOLARES,"Sí, puedes participar si cumples con los requisitos y existe disponibilidad en el equipo."
+81,¿Dónde puedo consultar mi horario?,HORARIOS,Puedes consultar tu horario en el portal institucional de estudiantes.
+82,¿Dónde veo mi horario?,HORARIOS,Puedes consultar tu horario en el portal institucional de estudiantes.
+83,¿Cómo puedo ver mi horario de clases?,HORARIOS,Puedes consultar tu horario en el portal institucional de estudiantes.
+84,¿A qué hora comienzan las clases?,HORARIOS,El horario de inicio depende del programa académico y del grupo asignado.
+85,¿A qué hora empiezan las clases?,HORARIOS,El horario de inicio depende del programa académico y del grupo asignado.
+86,¿A qué hora terminan las clases?,HORARIOS,El horario de salida depende de las materias y del grupo asignado.
+87,¿A qué hora salimos de clases?,HORARIOS,El horario de salida depende de las materias y del grupo asignado.
+88,¿Dónde puedo ver mi horario de clases?,HORARIOS,Puedes consultar tu horario desde el portal estudiantil.
+89,¿Dónde consulto el horario de mi grupo?,HORARIOS,Puedes consultar el horario asignado a tu grupo desde el portal institucional.
+90,¿Cómo consulto el horario de mi grupo?,HORARIOS,Puedes consultar el horario asignado a tu grupo desde el portal institucional.
+91,¿Cuál es el horario de atención administrativa?,HORARIOS,El horario de atención depende del área administrativa correspondiente.
+92,¿A qué hora atienden en administración?,HORARIOS,El horario de atención depende del área administrativa correspondiente.
+93,¿A qué hora abre la escuela?,HORARIOS,El horario de apertura depende del campus y de los servicios disponibles.
+94,¿A qué hora puedo entrar a la escuela?,HORARIOS,El horario de apertura depende del campus y de los servicios disponibles.
+95,¿Cuál es el horario de los profesores?,HORARIOS,Los horarios de los profesores pueden consultarse en los medios institucionales disponibles.
+96,¿Dónde puedo consultar el horario de los profesores?,HORARIOS,Los horarios de los profesores pueden consultarse en los medios institucionales disponibles.
+97,¿Hay clases los sábados?,HORARIOS,La existencia de clases los sábados depende del programa y del horario asignado.
+98,¿Tenemos clases los sábados?,HORARIOS,La existencia de clases los sábados depende del programa y del horario asignado.
+99,¿Dónde consulto el calendario académico?,HORARIOS,El calendario académico puede consultarse en los medios oficiales de la institución.
+100,¿Dónde puedo ver el calendario escolar?,HORARIOS,El calendario académico puede consultarse en los medios oficiales de la institución.
+101,¿A qué hora abre la biblioteca?,BIBLIOTECA,La biblioteca abre de lunes a viernes de 8:00 a 18:00 horas.
+102,¿A qué hora puedo ir a la biblioteca?,BIBLIOTECA,La biblioteca abre de lunes a viernes de 8:00 a 18:00 horas.
+103,¿Cuál es el horario de la biblioteca?,BIBLIOTECA,La biblioteca abre de lunes a viernes de 8:00 a 18:00 horas.
+104,¿A qué hora cierra la biblioteca?,BIBLIOTECA,La biblioteca cierra de lunes a viernes a las 18:00 horas.
+105,¿Cuándo cierra la biblioteca?,BIBLIOTECA,La biblioteca cierra de lunes a viernes a las 18:00 horas.
+106,¿Dónde está la biblioteca?,BIBLIOTECA,La biblioteca se encuentra dentro de las instalaciones de la institución.
+107,¿Dónde se encuentra la biblioteca?,BIBLIOTECA,La biblioteca se encuentra dentro de las instalaciones de la institución.
+108,¿Cómo puedo pedir un libro prestado?,BIBLIOTECA,Puedes solicitar el préstamo presentando tu identificación estudiantil y cumpliendo con las condiciones del servicio.
+109,¿Cómo saco un libro de la biblioteca?,BIBLIOTECA,Puedes solicitar el préstamo presentando tu identificación estudiantil y cumpliendo con las condiciones del servicio.
+110,¿Cuánto tiempo puedo tener un libro?,BIBLIOTECA,El periodo de préstamo depende del tipo de material y de las políticas de la biblioteca.
+111,¿Cuántos días puedo tener un libro prestado?,BIBLIOTECA,El periodo de préstamo depende del tipo de material y de las políticas de la biblioteca.
+112,¿Puedo renovar un libro?,BIBLIOTECA,La renovación depende de la disponibilidad del material y de las políticas de préstamo.
+113,¿Cómo puedo renovar un libro?,BIBLIOTECA,La renovación depende de la disponibilidad del material y de las políticas de préstamo.
+114,¿Qué necesito para pedir un libro?,BIBLIOTECA,Necesitas tu identificación estudiantil y tener una cuenta activa en la biblioteca.
+115,¿Qué requisitos necesito para sacar un libro?,BIBLIOTECA,Necesitas tu identificación estudiantil y tener una cuenta activa en la biblioteca.
+116,¿Puedo consultar libros en línea?,BIBLIOTECA,Algunos materiales pueden estar disponibles mediante los recursos digitales de la biblioteca.
+117,¿Hay libros digitales?,BIBLIOTECA,Algunos materiales pueden estar disponibles mediante los recursos digitales de la biblioteca.
+118,¿Qué pasa si pierdo un libro?,BIBLIOTECA,Debes comunicarte con la biblioteca para conocer el procedimiento de reposición o pago correspondiente.
+119,¿Puedo estudiar dentro de la biblioteca?,BIBLIOTECA,"Sí, la biblioteca cuenta con espacios destinados al estudio y consulta de materiales."
+120,¿Hay espacios para estudiar en la biblioteca?,BIBLIOTECA,"Sí, la biblioteca cuenta con espacios destinados al estudio y consulta de materiales."
+121,¿Qué opciones de beca tiene la institución?,BECAS,La institución ofrece diferentes tipos de becas de acuerdo con los requisitos establecidos.
+122,¿Cómo tramito una beca por primera vez?,BECAS,Puedes solicitar una beca mediante el portal institucional durante el periodo correspondiente.
+123,¿En qué fecha abre el trámite de becas?,BECAS,El periodo de solicitud de becas comienza el 20 de octubre.
+124,¿Cuáles son las condiciones para conseguir una beca?,BECAS,Los requisitos dependen del tipo de beca y de la convocatoria correspondiente.
+125,¿Puedo conservar mi beca para el siguiente periodo?,BECAS,"Sí, las becas pueden renovarse siempre que cumplas con los requisitos establecidos."
+126,¿En dónde reviso el resultado de mi solicitud de beca?,BECAS,Los resultados se pueden consultar en el portal institucional durante las fechas establecidas.
+127,¿Qué alumnos tienen derecho a solicitar una beca?,BECAS,Los estudiantes que cumplan con los requisitos de la convocatoria pueden solicitarla.
+128,¿Cuál es el apoyo económico que ofrece la beca?,BECAS,El monto depende del tipo de beca y de las condiciones establecidas por la institución.
+129,¿Cuándo se anuncia la convocatoria para becas?,BECAS,La convocatoria se publica antes del inicio del periodo de solicitudes.
+130,¿Dónde puedo enterarme de las nuevas convocatorias de becas?,BECAS,La convocatoria se publica antes del inicio del periodo de solicitudes.
+131,¿En qué fechas puedo realizar mi inscripción?,INSCRIPCIONES,El periodo de inscripciones se publica en el calendario académico institucional.
+132,¿Qué pasos debo seguir para inscribirme?,INSCRIPCIONES,Debes ingresar al portal estudiantil y seguir el proceso de inscripción correspondiente.
+133,¿La inscripción se hace por internet?,INSCRIPCIONES,La inscripción puede realizarse mediante el portal institucional de estudiantes.
+134,¿Cuáles son las condiciones para poder inscribirme?,INSCRIPCIONES,Debes cumplir con los requisitos académicos y administrativos indicados para tu periodo de inscripción.
+135,¿En qué fechas puedo hacer la reinscripción?,INSCRIPCIONES,La reinscripción se realiza durante las fechas indicadas en el calendario académico.
+136,¿Puedo modificar una materia que seleccioné?,INSCRIPCIONES,Los cambios de materias están sujetos al periodo y las condiciones establecidas por la institución.
+137,¿Qué hago si olvidé inscribirme en la fecha indicada?,INSCRIPCIONES,Debes comunicarte con el área correspondiente para conocer si existe un periodo extraordinario de inscripción.
+138,¿Dónde reviso mi horario una vez que terminé la inscripción?,INSCRIPCIONES,Puedes consultar tu horario desde el portal institucional.
+139,¿Cómo puedo verificar que mi inscripción quedó registrada?,INSCRIPCIONES,Puedes consultar tu estado académico o comprobante de inscripción en el portal estudiantil.
+140,¿Es posible dar de baja una materia después de inscribirme?,INSCRIPCIONES,La cancelación de materias depende de las fechas y reglas establecidas por la institución.
+141,¿Qué opciones tengo para pagar mis cuotas?,PAGOS,Puedes realizar el pago mediante los medios habilitados por la institución.
+142,¿De qué manera puedo pagar la colegiatura?,PAGOS,La colegiatura puede pagarse mediante los métodos disponibles en el portal institucional.
+143,¿Hasta qué día puedo hacer mi pago?,PAGOS,Las fechas límite de pago se encuentran en el calendario administrativo correspondiente.
+144,¿Puedo pagar mi colegiatura desde el portal?,PAGOS,"Sí, puedes realizar tus pagos mediante el portal institucional si el servicio está habilitado."
+145,¿Cómo sé cuánto dinero tengo pendiente por pagar?,PAGOS,Puedes consultar tu saldo pendiente desde el portal institucional.
+146,¿Qué formas de pago tiene disponibles la institución?,PAGOS,Los métodos disponibles dependen de las opciones habilitadas por la institución.
+147,¿Qué sucede si pago después de la fecha límite?,PAGOS,Un pago fuera de la fecha límite puede generar restricciones o cargos adicionales según las políticas institucionales.
+148,¿Cómo obtengo el recibo de un pago que hice?,PAGOS,El comprobante puede consultarse y descargarse desde el portal institucional.
+149,¿Hay alguna opción si no pude pagar en la fecha establecida?,PAGOS,Debes consultar con el área administrativa si existe un periodo extraordinario de pago.
+150,¿Dónde puedo revisar todos los pagos que he realizado?,PAGOS,Puedes revisar tu historial de pagos desde el portal institucional.
+151,¿Qué actividades puedo hacer fuera de mis clases?,EXTRAESCOLARES,"La institución cuenta con diferentes actividades deportivas, culturales y recreativas."
+152,¿Qué disciplinas extracurriculares están disponibles?,EXTRAESCOLARES,Las disciplinas disponibles dependen de la oferta extraescolar de cada periodo.
+153,¿Qué debo hacer para registrarme en una actividad?,EXTRAESCOLARES,Debes registrarte mediante el procedimiento indicado por el área de actividades extraescolares.
+154,¿En qué lugar puedo inscribirme a un taller?,EXTRAESCOLARES,Puedes solicitar tu inscripción en el área correspondiente o mediante el portal institucional.
+155,¿Desde cuándo estarán disponibles las actividades?,EXTRAESCOLARES,Las actividades comienzan de acuerdo con el calendario establecido para cada periodo.
+156,¿Tengo que pagar para participar en un taller?,EXTRAESCOLARES,Algunas actividades pueden ser gratuitas y otras pueden tener un costo dependiendo de la actividad.
+157,¿Puedo cambiarme a otra actividad si ya estoy inscrito?,EXTRAESCOLARES,Los cambios dependen de la disponibilidad y de las reglas de cada actividad.
+158,¿Es necesario tomar alguna actividad extracurricular?,EXTRAESCOLARES,La obligatoriedad depende del programa académico y de los requisitos establecidos.
+159,¿En qué lugares se llevan a cabo las actividades?,EXTRAESCOLARES,El lugar depende de la actividad y puede consultarse con el área de extraescolares.
+160,¿Puedo formar parte de un equipo deportivo de la escuela?,EXTRAESCOLARES,"Sí, puedes participar si cumples con los requisitos y existe disponibilidad en el equipo."
+161,¿Dónde encuentro el horario que me asignaron?,HORARIOS,Puedes consultar tu horario en el portal institucional de estudiantes.
+162,¿Cuál es la hora de entrada a clases?,HORARIOS,El horario de inicio depende del programa académico y del grupo asignado.
+163,¿A qué hora termina mi jornada de clases?,HORARIOS,El horario de salida depende de las materias y del grupo asignado.
+164,¿Cómo reviso mis materias y horarios?,HORARIOS,Puedes consultar tu horario desde el portal estudiantil.
+165,¿Dónde puedo consultar el horario de mi salón o grupo?,HORARIOS,Puedes consultar el horario asignado a tu grupo desde el portal institucional.
+166,¿En qué horario puedo acudir a las oficinas administrativas?,HORARIOS,El horario de atención depende del área administrativa correspondiente.
+167,¿A qué hora comienzan las actividades de la escuela?,HORARIOS,El horario de apertura depende del campus y de los servicios disponibles.
+168,¿Cómo puedo saber cuándo está disponible un profesor?,HORARIOS,Los horarios de los profesores pueden consultarse en los medios institucionales disponibles.
+169,¿Los fines de semana tenemos clases?,HORARIOS,La existencia de clases los sábados depende del programa y del horario asignado.
+170,¿Dónde puedo revisar las fechas importantes del ciclo escolar?,HORARIOS,El calendario académico puede consultarse en los medios oficiales de la institución.
+171,¿Cuál es el horario de atención de la biblioteca?,BIBLIOTECA,La biblioteca abre de lunes a viernes de 8:00 a 18:00 horas.
+172,¿Desde qué hora puedo entrar a la biblioteca?,BIBLIOTECA,La biblioteca abre de lunes a viernes de 8:00 a 18:00 horas.
+173,¿A qué hora dejan de atender en la biblioteca?,BIBLIOTECA,La biblioteca cierra de lunes a viernes a las 18:00 horas.
+174,¿En qué parte de la institución está la biblioteca?,BIBLIOTECA,La biblioteca se encuentra dentro de las instalaciones de la institución.
+175,¿Qué tengo que presentar para llevarme un libro?,BIBLIOTECA,Puedes solicitar el préstamo presentando tu identificación estudiantil y cumpliendo con las condiciones del servicio.
+176,¿Por cuánto tiempo puedo conservar un libro prestado?,BIBLIOTECA,El periodo de préstamo depende del tipo de material y de las políticas de la biblioteca.
+177,¿Qué condiciones debo cumplir para renovar un libro?,BIBLIOTECA,La renovación depende de la disponibilidad del material y de las políticas de préstamo.
+178,¿Necesito algún documento para solicitar un préstamo?,BIBLIOTECA,Necesitas tu identificación estudiantil y tener una cuenta activa en la biblioteca.
+179,¿Puedo acceder a material bibliográfico desde internet?,BIBLIOTECA,Algunos materiales pueden estar disponibles mediante los recursos digitales de la biblioteca.
+180,¿Qué debo hacer si se me extravía un libro?,BIBLIOTECA,Debes comunicarte con la biblioteca para conocer el procedimiento de reposición o pago correspondiente.
+181,¿Que precio tiene la inscripcion?,INSCRIPCIONES,Los precios estan establecidos en el portal institucional. 
