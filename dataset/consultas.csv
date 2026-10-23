@@ -179,4 +179,85 @@
 178,¿Necesito algún documento para solicitar un préstamo?,BIBLIOTECA,Necesitas tu identificación estudiantil y tener una cuenta activa en la biblioteca.
 179,¿Puedo acceder a material bibliográfico desde internet?,BIBLIOTECA,Algunos materiales pueden estar disponibles mediante los recursos digitales de la biblioteca.
 180,¿Qué debo hacer si se me extravía un libro?,BIBLIOTECA,Debes comunicarte con la biblioteca para conocer el procedimiento de reposición o pago correspondiente.
-181,¿Que precio tiene la inscripcion?,INSCRIPCIONES,Los precios estan establecidos en el portal institucional. 
+181,¿Qué precio tiene la inscripción?,INSCRIPCIONES,Los precios están establecidos en el portal institucional.
+182,que becas hay disponibles,BECAS,La institución ofrece diferentes tipos de becas de acuerdo con los requisitos establecidos.
+183,como aplico a una beca,BECAS,Puedes solicitar una beca mediante el portal institucional durante el periodo correspondiente.
+184,hasta cuando puedo meter papeles para la beca,BECAS,El periodo de solicitud de becas comienza el 20 de octubre.
+185,me piden promedio para la beca?,BECAS,Los requisitos dependen del tipo de beca y de la convocatoria correspondiente.
+186,mi beca se puede renovar el proximo semestre,BECAS,"Sí, las becas pueden renovarse siempre que cumplas con los requisitos establecidos."
+187,ya salieron los resultados de las becas?,BECAS,Los resultados se pueden consultar en el portal institucional durante las fechas establecidas.
+188,cuanto me dan con la beca,BECAS,El monto depende del tipo de beca y de las condiciones establecidas por la institución.
+189,cuando me puedo inscribir,INSCRIPCIONES,El periodo de inscripciones se publica en el calendario académico institucional.
+190,como me inscribo a las materias,INSCRIPCIONES,Debes ingresar al portal estudiantil y seguir el proceso de inscripción correspondiente.
+191,que papeles piden para inscribirse,INSCRIPCIONES,Debes cumplir con los requisitos académicos y administrativos indicados para tu periodo de inscripción.
+192,no me alcance a inscribir que hago,INSCRIPCIONES,Debes comunicarte con el área correspondiente para conocer si existe un periodo extraordinario de inscripción.
+193,como se si ya quede inscrito,INSCRIPCIONES,Puedes consultar tu estado académico o comprobante de inscripción en el portal estudiantil.
+194,puedo cambiar una materia ya inscrita,INSCRIPCIONES,Los cambios de materias están sujetos al periodo y las condiciones establecidas por la institución.
+195,en que fechas me reinscribo,INSCRIPCIONES,El periodo de inscripciones se publica en el calendario académico institucional.
+196,en que lugar pago mi inscripcion,PAGOS,Puedes realizar el pago mediante los medios habilitados por la institución.
+197,hasta que dia puedo pagar,PAGOS,Las fechas límite de pago se encuentran en el calendario administrativo correspondiente.
+198,se puede pagar por internet,PAGOS,"Sí, puedes realizar tus pagos mediante el portal institucional si el servicio está habilitado."
+199,cuanto debo de colegiatura,PAGOS,Puedes consultar tu saldo pendiente desde el portal institucional.
+200,pague tarde y me cobraron extra,PAGOS,Un pago fuera de la fecha límite puede generar restricciones o cargos adicionales según las políticas institucionales.
+201,necesito mi recibo de pago,PAGOS,El comprobante puede consultarse y descargarse desde el portal institucional.
+202,como veo mis pagos,PAGOS,Puedes consultar tu saldo pendiente desde el portal institucional.
+203,que talleres hay,EXTRAESCOLARES,"La institución cuenta con diferentes actividades deportivas, culturales y recreativas."
+204,quiero apuntarme a futbol,EXTRAESCOLARES,Debes registrarte mediante el procedimiento indicado por el área de actividades extraescolares.
+205,los talleres cuestan algo,EXTRAESCOLARES,Algunas actividades pueden ser gratuitas y otras pueden tener un costo dependiendo de la actividad.
+206,me puedo cambiar de taller,EXTRAESCOLARES,Los cambios dependen de la disponibilidad y de las reglas de cada actividad.
+207,hay equipo de basquet,EXTRAESCOLARES,"Sí, puedes participar si cumples con los requisitos y existe disponibilidad en el equipo."
+208,que actividades culturales ofrecen,EXTRAESCOLARES,"La institución cuenta con diferentes actividades deportivas, culturales y recreativas."
+209,como entro a un taller de musica,EXTRAESCOLARES,Debes registrarte mediante el procedimiento indicado por el área de actividades extraescolares.
+210,donde veo mis horarios,HORARIOS,Puedes consultar tu horario en el portal institucional de estudiantes.
+211,a que hora entramos,HORARIOS,El horario de inicio depende del programa académico y del grupo asignado.
+212,a que hora salimos hoy,HORARIOS,El horario de salida depende de las materias y del grupo asignado.
+213,hasta que hora atienden en control escolar,HORARIOS,El horario de atención depende del área administrativa correspondiente.
+214,hay clase el sabado,HORARIOS,La existencia de clases los sábados depende del programa y del horario asignado.
+215,cuando son las vacaciones,HORARIOS,El calendario académico puede consultarse en los medios oficiales de la institución.
+216,donde esta mi horario de clases,HORARIOS,Puedes consultar tu horario en el portal institucional de estudiantes.
+217,a que hora abren la biblioteca,BIBLIOTECA,La biblioteca abre de lunes a viernes de 8:00 a 18:00 horas.
+218,hasta que hora esta abierta la biblioteca,BIBLIOTECA,La biblioteca cierra de lunes a viernes a las 18:00 horas.
+219,donde queda la biblioteca,BIBLIOTECA,La biblioteca se encuentra dentro de las instalaciones de la institución.
+220,me prestan un libro,BIBLIOTECA,Puedes solicitar el préstamo presentando tu identificación estudiantil y cumpliendo con las condiciones del servicio.
+221,por cuanto tiempo me llevo un libro,BIBLIOTECA,El periodo de préstamo depende del tipo de material y de las políticas de la biblioteca.
+222,perdi un libro de la biblioteca,BIBLIOTECA,Debes comunicarte con la biblioteca para conocer el procedimiento de reposición o pago correspondiente.
+223,hay libros en pdf,BIBLIOTECA,Algunos materiales pueden estar disponibles mediante los recursos digitales de la biblioteca.
+224,puedo ir a estudiar a la biblioteca,BIBLIOTECA,"Sí, la biblioteca cuenta con espacios destinados al estudio y consulta de materiales."
+225,hola,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+226,buenos dias,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+227,gracias,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+228,quien eres,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+229,cuentame un chiste,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+230,que clima hace hoy,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+231,quiero pizza,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+232,cual es la capital de francia,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+233,ayuda,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+234,asdfgh,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+235,buenas tardes,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+236,buenas noches,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+237,que tal,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+238,hey,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+239,muchas gracias,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+240,ok gracias,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+241,hasta luego,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+242,nos vemos,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+243,como te llamas,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+244,eres un robot,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+245,que puedes hacer,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+246,como estas,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+247,cuanto es dos mas dos,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+248,quien gano el mundial,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+249,cual es tu comida favorita,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+250,dime algo gracioso,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+251,que dia es hoy,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+252,cuanto cuesta un celular,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+253,donde puedo comprar ropa,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+254,como llego al aeropuerto,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+255,receta de tacos,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+256,que es la inteligencia artificial,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+257,quien escribio don quijote,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+258,como preparo un cafe,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+259,cuantos habitantes tiene mexico,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+260,ponme musica,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+261,recomiendame un libro de fantasia,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."
+262,que significa la palabra felicidad,OTRO,"Lo siento, solo puedo ayudarte con becas, inscripciones, pagos, actividades extraescolares, horarios y biblioteca."

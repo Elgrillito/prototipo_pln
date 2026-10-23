@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 
 # Ruta del archivo CSV
-archivo = Path("dataset/consultas_180.csv")
+archivo = Path("dataset/consultas.csv")
 
 # Verificar que el archivo exista
 if not archivo.exists():

@@ -3,113 +3,132 @@ import joblib
 
 from sklearn.metrics.pairwise import cosine_similarity
 
-# CARGAR MODELO Y DATOS
-print("-" * 60)
-print("             ASISTENTE DE CONSULTAS")
-print("-" * 60)
+import preprocesado  # noqa: F401 - necesario para cargar el modelo guardado
 
-# Cargar modelo entrenado
-clasificador = joblib.load("modelos/clasificador.pkl")
+ARCHIVO_MODELO = "modelos/modelo.pkl"
+ARCHIVO_DATASET = "dataset/consultas.csv"
 
-# Cargar vectorizador TF-IDF
-vectorizador = joblib.load("modelos/vectorizador.pkl")
+# Umbrales (en %) estimados con consultas de prueba dentro y fuera del
+# dominio. Por debajo de ellos el asistente prefiere no responder.
+UMBRAL_CONFIANZA = 60.0
+UMBRAL_SIMILITUD = 35.0
 
-# Cargar dataset para obtener las respuestas
-df = pd.read_csv("dataset/consultas_180.csv")
+# Categoría para saludos y consultas fuera del dominio del asistente
+CATEGORIA_FUERA_DE_TEMA = "OTRO"
 
-print("\nModelo cargado correctamente.")
-print("Escribe 'salir' para terminar.\n")
+
+def cargar_recursos():
+    try:
+        modelo = joblib.load(ARCHIVO_MODELO)
+        df = pd.read_csv(ARCHIVO_DATASET)
+    except FileNotFoundError as error:
+        raise SystemExit(
+            f"No se encontró {error.filename}. "
+            "Ejecuta primero: python entrenar.py"
+        )
+
+    # Se vectorizan las preguntas del dataset una sola vez
+    preguntas_tfidf = modelo["tfidf"].transform(df["texto"])
+    return modelo, df, preguntas_tfidf
+
 
 # FUNCIÓN PARA BUSCAR RESPUESTA
 
-def obtener_respuesta(pregunta, categoria):
+def obtener_respuesta(pregunta, categoria, modelo, df, preguntas_tfidf):
 
     # Filtrar solamente las preguntas
     # de la categoría detectada
-    resultados = df[df["categoria"] == categoria].copy()
+    mascara = (df["categoria"] == categoria).to_numpy()
+    resultados = df[mascara]
 
     if resultados.empty:
-        return "No tengo una respuesta disponible para esta categoría."
-
-    # Convertir las preguntas del CSV a TF-IDF
-    preguntas_tfidf = vectorizador.transform(
-        resultados["texto"]
-    )
-
-    # Convertir la pregunta del usuario a TF-IDF
-    pregunta_tfidf = vectorizador.transform(
-        [pregunta]
-    )
+        return None, None, 0.0
 
     # Calcular similitud
+    pregunta_tfidf = modelo["tfidf"].transform([pregunta])
     similitudes = cosine_similarity(
         pregunta_tfidf,
-        preguntas_tfidf
+        preguntas_tfidf[mascara]
     )[0]
 
     # Encontrar la pregunta más parecida
     indice = similitudes.argmax()
 
-    # Obtener la fila correspondiente
     respuesta = resultados.iloc[indice]["respuesta"]
-
-    # También devolvemos la pregunta encontrada
     pregunta_relacionada = resultados.iloc[indice]["texto"]
-
-    # Y su nivel de similitud
     similitud = similitudes[indice] * 100
 
     return respuesta, pregunta_relacionada, similitud
 
 
-# BUCLE PRINCIPAL
+def main():
+    print("-" * 60)
+    print("             ASISTENTE DE CONSULTAS")
+    print("-" * 60)
 
-while True:
+    modelo, df, preguntas_tfidf = cargar_recursos()
 
-    pregunta = input("> ")
+    print("\nModelo cargado correctamente.")
+    print("Escribe 'salir' para terminar.\n")
 
-    # Permitir salir
-    if pregunta.lower() == "salir":
-        print("\nAsistente finalizado.")
-        break
+    while True:
 
-    # Evitar preguntas vacías
-    if not pregunta.strip():
-        print("Por favor, escribe una pregunta.\n")
-        continue
-    
-    # CONVERTIR PREGUNTA A TF-IDF    
+        pregunta = input("> ")
 
-    pregunta_tfidf = vectorizador.transform([pregunta])
-    
-    # PREDECIR CATEGORÍA    
+        # Permitir salir
+        if pregunta.strip().lower() == "salir":
+            print("\nAsistente finalizado.")
+            break
 
-    categoria = clasificador.predict(pregunta_tfidf)[0]
-    
-    # OBTENER CONFIANZA    
+        # Evitar preguntas vacías
+        if not pregunta.strip():
+            print("Por favor, escribe una pregunta.\n")
+            continue
 
-    probabilidades = clasificador.predict_proba(pregunta_tfidf)[0]
+        # PREDECIR CATEGORÍA Y CONFIANZA
 
-    confianza = max(probabilidades) * 100
-    
-    # OBTENER RESPUESTA   
+        probabilidades = modelo.predict_proba([pregunta])[0]
+        categoria = modelo.classes_[probabilidades.argmax()]
+        confianza = probabilidades.max() * 100
 
-    respuesta, pregunta_relacionada, similitud = obtener_respuesta(
-        pregunta,
-        categoria
-    )
-    
-    # MOSTRAR RESULTADO    
+        # CONSULTAS FUERA DE TEMA
 
-    print(f"\nCategoría: {categoria}")
-    print(f"Confianza de categoría: {confianza:.2f}%")    
-    print(f"Similitud con pregunta: {similitud:.2f}%")
+        if categoria == CATEGORIA_FUERA_DE_TEMA:
+            print(f"\nCategoría: {categoria}")
+            print(f"Confianza de categoría: {confianza:.2f}%")
+            print("\n" + df[df["categoria"] == categoria]["respuesta"].iloc[0])
+            print("\n" + "-" * 60)
+            continue
 
-    if similitud<20.0 :
-        print(f"\nDemasiado baja la coincidencia para responder, pruebe de otra manera.")
-    else :
-        print(f"\nPregunta relacionada:")
-        print(pregunta_relacionada)
-        print(f"\nRespuesta:")
-        print(respuesta)
-    print("\n" + "-" * 60)
+        # OBTENER RESPUESTA
+
+        respuesta, pregunta_relacionada, similitud = obtener_respuesta(
+            pregunta,
+            categoria,
+            modelo,
+            df,
+            preguntas_tfidf
+        )
+
+        # MOSTRAR RESULTADO
+
+        print(f"\nCategoría: {categoria}")
+        print(f"Confianza de categoría: {confianza:.2f}%")
+        print(f"Similitud con pregunta: {similitud:.2f}%")
+
+        if (
+            respuesta is None
+            or confianza < UMBRAL_CONFIANZA
+            or similitud < UMBRAL_SIMILITUD
+        ):
+            print("\nDemasiado baja la coincidencia para responder, pruebe de otra manera.")
+        else:
+            print("\nPregunta relacionada:")
+            print(pregunta_relacionada)
+            print("\nRespuesta:")
+            print(respuesta)
+        print("\n" + "-" * 60)
+
+
+if __name__ == "__main__":
+    main()
