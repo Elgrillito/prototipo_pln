@@ -1,3 +1,5 @@
+import json
+
 import joblib
 import pandas as pd
 
@@ -6,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import (
     RepeatedStratifiedKFold,
-    cross_val_score,
+    cross_validate,
     train_test_split,
 )
 from sklearn.pipeline import Pipeline
@@ -15,6 +17,7 @@ from preprocesado import normalizar
 
 ARCHIVO_DATASET = "dataset/consultas.csv"
 ARCHIVO_MODELO = "modelos/modelo.pkl"
+ARCHIVO_METRICAS = "modelos/metricas.json"
 SEMILLA = 42
 
 
@@ -50,7 +53,11 @@ def main():
     # prueba pesa casi 3 puntos. Se repite 5 folds x 3 veces.
 
     cv = RepeatedStratifiedKFold(n_splits=5, n_repeats=3, random_state=SEMILLA)
-    puntajes = cross_val_score(crear_pipeline(), X, y, cv=cv)
+    metricas = cross_validate(
+        crear_pipeline(), X, y, cv=cv,
+        scoring=["accuracy", "precision_macro", "recall_macro", "f1_macro"],
+    )
+    puntajes = metricas["test_accuracy"]
 
     print("\n" + "-" * 60)
     print("              RESULTADOS")
@@ -91,6 +98,16 @@ def main():
 
     modelo = crear_pipeline().fit(X, y)
     joblib.dump(modelo, ARCHIVO_MODELO)
+
+    # La página web muestra estas métricas
+    with open(ARCHIVO_METRICAS, "w", encoding="utf-8") as f:
+        json.dump({
+            "n_registros": len(df),
+            "accuracy": float(puntajes.mean() * 100),
+            "precision": float(metricas["test_precision_macro"].mean() * 100),
+            "recall": float(metricas["test_recall_macro"].mean() * 100),
+            "f1": float(metricas["test_f1_macro"].mean() * 100),
+        }, f, indent=2)
 
     print(f"\nModelo (entrenado con los {len(df)} registros) guardado en:")
     print(ARCHIVO_MODELO)
