@@ -11,10 +11,12 @@ proyecto_pln/
 ├── dataset/
 ├── modelos/
 ├── tests/
+├── web/
 ├── asistente.py
 ├── entrenar.py
 ├── preprocesado.py
 ├── revisar_dataset.py
+├── servidor.py
 ├── requirements.txt
 ├── requirements-dev.txt
 ├── .gitignore
@@ -29,6 +31,8 @@ proyecto_pln/
 - `revisar_dataset.py`: permite revisar y analizar los datos utilizados para el entrenamiento.
 - `dataset/consultas.csv`: datos de entrenamiento (columnas `id`, `texto`, `categoria`, `respuesta`). Además de las 6 categorías temáticas incluye `OTRO`, para saludos y consultas fuera del dominio, que el asistente rechaza con un mensaje fijo.
 - `modelos/`: contiene el modelo generado durante el entrenamiento (`modelo.pkl`).
+- `servidor.py`: servidor Flask que expone el asistente a la página web (`/api/consultar`, `/api/info`).
+- `web/index.html`: interfaz web del asistente. Muestra el pipeline de PLN, el umbral de confianza y las métricas reales del modelo.
 - `tests/`: pruebas automáticas (`pytest`).
 
 ## Tecnologías
@@ -36,6 +40,7 @@ proyecto_pln/
 - Python
 - Scikit-learn
 - Procesamiento de Lenguaje Natural
+- Flask (servidor web)
 - TF-IDF de n-gramas de caracteres y regresión logística
 - Clasificación de texto
 
@@ -79,6 +84,14 @@ Para ejecutar el asistente:
 ```bash
 python asistente.py
 ```
+
+Para abrir la interfaz web (primero hay que haber entrenado el modelo):
+
+```bash
+python servidor.py
+```
+
+Y abrir <http://127.0.0.1:5000>. La página carga Tailwind, FontAwesome y la fuente Inter desde Internet.
 
 Para revisar el dataset:
 
